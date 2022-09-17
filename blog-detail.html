@@ -48,7 +48,7 @@
               <img src="./images/Layer.svg" alt="icon">
             </li>
             <li class="list-item">
-              <button type="button" class="btn position-relative ">
+              <button type="button" class="btn position-relative js-open">
                 <img src="./images/box-icon.svg" alt="">
                 <span class="position-absolute top-50 start-0 ">
                   <span class=""><img src="./images/Group 21.svg" alt="icon"></span>
@@ -392,6 +392,143 @@
   </footer>
   
   <!-- Footer end -->
+  <div class="head-shopping d-none d-sm-block p-3">
+    <div class="shop-box d-flex justify-content-between align-items-center">
+      <h2 class="shopping-title">Shopping cart</h2>
+      <button class="shop-btn border-0 js-close">Close</button>
+    </div>
+    <div class="card mb-3 p-3 pe-0 border-0 card-modal" style="width: 367px; height: 180px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img class="img-fluid rounded-start" width="100" height="67" src="./images/modal.png" alt="site modal">
+          <ul class="shopping-list m-0 p-0 list-unstyled">
+            <li class="shopping-item">
+              <a class="shopping-link" href="#!">Wishlist</a>
+            </li>
+            <li class="shopping-item">
+              <a class="shopping-link" href="#!">Compare</a>
+            </li>
+            <li class="shopping-item">
+              <a class="shopping-link" href="#!">Remove</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body ms-2 p-0">
+            <h3 class="card-title shop-title-2">Product title</h3>
+            <div class="card-body-box">
+              <p class="card-text shop-text">Farm: <span class="shop-span">Tharamis Farm</span></p>
+              <p class="card-text shop-text">Freshness: <span class="shop-span ms-3">1 day old</span></p>
+            </div>
+            <ul class="star-list d-flex align-items-center m-0 p-0 list-unstyled">
+              <li class="star-item">
+                <a class="star-link" href="#!"><img src="./images/black-star.svg" alt="star"></a>
+              </li>
+              <li class="star-item">
+                <a class="star-link" href="#!"><img src="./images/black-star.svg" alt="star"></a>
+              </li>
+              <li class="star-item">
+                <a class="star-link" href="#!"><img src="./images/black-star.svg" alt="star"></a>
+              </li>
+              <li class="star-item">
+                <a class="star-link" href="#!"><img src="./images/black-star.svg" alt="star"></a>
+              </li>
+              <li class="star-item">
+                <a class="star-link" href="#!"><img width="16" height="16" src="./images/star-transparent.svg" alt="star"></a>
+              </li>
+            </ul>
+            <div class="price-box d-flex justify-content-between align-items-center">
+              <span class="price-span">
+                <p class="price-orig m-0">36.99 USD</p>
+                <p class="price-last m-0">48.56 USD</p>
+              </span>
+              <div class="dropdown">
+                <button class="drop-btn d-flex justify-content-between align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <p class="drop-text d-inline-block m-0 text-start">1 pcs</p>
+                  Pcs
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3 p-3 pe-0 border-0 card-modal2" style="width: 367px; height: 180px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img class="img-fluid rounded-start" width="100" height="67" src="./images/modal.png" alt="site modal">
+          <ul class="shopping-list m-0 p-0 list-unstyled">
+            <li class="shopping-item">
+              <a class="shopping-link" href="#!">Wishlist</a>
+            </li>
+            <li class="shopping-item">
+              <a class="shopping-link" href="#!">Compare</a>
+            </li>
+            <li class="shopping-item">
+              <a class="shopping-link" href="#!">Remove</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body ms-2 p-0">
+            <h3 class="card-title shop-title-2">Product title</h3>
+            <div class="card-body-box">
+              <p class="card-text shop-text">Farm: <span class="shop-span">Tharamis Farm</span></p>
+              <p class="card-text shop-text">Freshness: <span class="shop-span ms-3">1 day old</span></p>
+            </div>
+            <ul class="star-list d-flex align-items-center m-0 p-0 list-unstyled">
+              <li class="star-item">
+                <a class="star-link" href="#!"><img src="./images/black-star.svg" alt="star"></a>
+              </li>
+              <li class="star-item">
+                <a class="star-link" href="#!"><img src="./images/black-star.svg" alt="star"></a>
+              </li>
+              <li class="star-item">
+                <a class="star-link" href="#!"><img src="./images/black-star.svg" alt="star"></a>
+              </li>
+              <li class="star-item">
+                <a class="star-link" href="#!"><img src="./images/black-star.svg" alt="star"></a>
+              </li>
+              <li class="star-item">
+                <a class="star-link" href="#!"><img width="16" height="16" src="./images/star-transparent.svg" alt="star"></a>
+              </li>
+            </ul>
+            <div class="price-box d-flex justify-content-between align-items-center">
+              <span class="price-span">
+                <p class="price-orig m-0">36.99 USD</p>
+                <p class="price-last m-0">48.56 USD</p>
+              </span>
+              <div class="dropdown">
+                <button class="drop-btn d-flex justify-content-between align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <p class="drop-text d-inline-block m-0 text-start">1 pcs</p>
+                  Pcs
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="total w-100">
+      <h3 class="totla-title">Subtotal</h3>
+      <p class="total-text">73.98 USD</p>
+    </div>
+    <div class="check d-flex justify-content-between align-items-center">
+      <p class="check-text">Continue shopping</p>
+      <a class="check-link" href="#!">Go to Checkout</a>
+    </div>
+  </div>
   <script src="./bootstrap/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 </html>
